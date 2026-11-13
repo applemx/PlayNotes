@@ -1,0 +1,23 @@
+{
+    "name": "PlayNotes",
+    "rootNamespace": "PlayNotes",
+    "references": [
+        "Unity.InputSystem",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "PLAYNOTES_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

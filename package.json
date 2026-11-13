@@ -1,0 +1,44 @@
+{
+  "name": "com.applemx.playnotes",
+  "version": "0.1.0",
+  "displayName": "PlayNotes",
+  "description": "Voice playtest notes for Unity, for your AI coding agent.\n\nPress F8, play and talk. Your words are kept together with pictures of the game window, the place you were in and what you had just pressed, in one folder your agent can read.\n\nEverything stays on your PC. Windows editor and Windows builds only; on other platforms the package compiles to nothing.",
+  "unity": "2022.3",
+  "keywords": [
+    "playtest",
+    "feedback",
+    "voice",
+    "notes",
+    "ai",
+    "agent",
+    "claude",
+    "debug",
+    "tools"
+  ],
+  "author": {
+    "name": "applemx",
+    "url": "https://github.com/applemx"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/applemx/PlayNotes#readme",
+  "changelogUrl": "https://github.com/applemx/PlayNotes/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/applemx/PlayNotes/blob/main/LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/applemx/PlayNotes.git"
+  },
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Hooks",
+      "description": "Tell PlayNotes where the player is and what just happened, in six lines.",
+      "path": "Samples~/Hooks"
+    }
+  ]
+}

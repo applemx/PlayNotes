@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="Press F8 and talk while you play. One folder per session holds the voice, pictures and a trail. notes.py writes each remark beside its place, clicks and pictures. Your agent reads it.">
+  <style>
+    .panel { fill: #14171f; }
+    .card { fill: #1d222d; stroke: #343b4a; stroke-width: 1; }
+    .step { font: 600 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8f98ab; letter-spacing: .08em; }
+    .title { font: 600 17px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f2f4f8; }
+    .body { font: 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c3c9d6; }
+    .mono { font: 13px Consolas, 'Cascadia Mono', Menlo, monospace; fill: #c3c9d6; }
+    .said { font: italic 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f2f4f8; }
+    .arrow { fill: none; stroke: #5b6475; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .dot { fill: #ed2a1f; }
+    .key { fill: #262c39; stroke: #4a5366; stroke-width: 1; }
+    .keytext { font: 600 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f2f4f8; }
+  </style>
+  <rect class="panel" width="880" height="250" rx="14"/>
+
+  <rect class="card" x="20" y="24" width="188" height="202" rx="10"/>
+  <text class="step" x="38" y="54">1</text>
+  <text class="title" x="38" y="82">Play and talk</text>
+  <rect class="key" x="38" y="100" width="40" height="28" rx="6"/>
+  <text class="keytext" x="58" y="119" text-anchor="middle">F8</text>
+  <circle class="dot" cx="100" cy="114" r="7"/>
+  <text class="body" x="38" y="156">Say what you think</text>
+  <text class="body" x="38" y="176">as it comes to you.</text>
+  <text class="body" x="38" y="204">F8 again to stop.</text>
+
+  <path class="arrow" d="M214 125 h14 m-6 -6 l6 6 l-6 6"/>
+
+  <rect class="card" x="234" y="24" width="188" height="202" rx="10"/>
+  <text class="step" x="252" y="54">2</text>
+  <text class="title" x="252" y="82">One folder</text>
+  <text class="mono" x="252" y="112">mic0.wav</text>
+  <text class="mono" x="252" y="134">shots/s000012.5.jpg</text>
+  <text class="mono" x="252" y="156">trail.txt</text>
+  <text class="mono" x="252" y="178">save_start/</text>
+  <text class="body" x="252" y="208">All of it on your PC.</text>
+
+  <path class="arrow" d="M428 125 h14 m-6 -6 l6 6 l-6 6"/>
+
+  <rect class="card" x="448" y="24" width="198" height="202" rx="10"/>
+  <text class="step" x="466" y="54">3</text>
+  <text class="title" x="466" y="82">notes.md</text>
+  <text class="said" x="466" y="112">“this button looks cheap”</text>
+  <text class="body" x="466" y="140">the place you were in</text>
+  <text class="body" x="466" y="162">what you had just pressed</text>
+  <text class="body" x="466" y="184">pictures of that moment</text>
+
+  <path class="arrow" d="M652 125 h14 m-6 -6 l6 6 l-6 6"/>
+
+  <rect class="card" x="672" y="24" width="188" height="202" rx="10"/>
+  <text class="step" x="690" y="54">4</text>
+  <text class="title" x="690" y="82">Your agent</text>
+  <text class="body" x="690" y="112">reads the notes,</text>
+  <text class="body" x="690" y="134">shows you how it took</text>
+  <text class="body" x="690" y="156">each remark,</text>
+  <text class="body" x="690" y="184">then changes the game.</text>
+</svg>
